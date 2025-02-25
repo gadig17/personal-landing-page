@@ -5,33 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gadi Glogowski - Personal Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body class=""bg-gray-100 flex justify-center items-center min-h-screen">
 
-<body>
-
-    <div class="container">
-        <div class="text-section">
-            <h1>Hello, I'm <span class="name">Gadi Glogowski</span></h1>
-            <h2 class="tagline">A Product Manager From Miami</h2>
-            <p>I'm a creative professional based in [Your Location], passionate about design, technology, and
+    <div class="max-w-3xl bg-white shadow-lg rounded-lg p-8 text-center">
+            <h1 class="text-4xl font-bold text-gray-800">Hello, I'm <span class="text-orange-500">Gadi Glogowski</span></h1>
+            <h2 class="text-2xl text-green-600 mt-2">A Product Manager From Miami</h2>
+            <p class="text-gray-600 mt-4">I'm a creative professional based in [Your Location], passionate about design, technology, and
                 innovation.</p>
 
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/gadiglogowski/" target="_blank">LinkedIn</a>
-                <a href="https://bsky.app/profile/gadig.bsky.social" target="_blank">Bluesky</a>
-                <a href="https://github.com/gadig17" target="_blank">GitHub</a>
+            <div class="mt-6 flex justify-center space-x-4">
+                <a href="https://www.linkedin.com/in/gadiglogowski/" target="_blank" class="text-blue-500 hover:underline">LinkedIn</a>
+                <a href="https://bsky.app/profile/gadig.bsky.social" target="_blank" class="text-blue-500 hover:underline">Bluesky</a>
+                <a href="https://github.com/gadig17" target="_blank" class="text-blue-500 hover:underline">GitHub</a>
             </div>
 
-            <button class="about-btn">About Me</button>
-        </div>
+            <button class="mt-6 px-6 py-2 bg-orange-500 text-white rounded-lg shadow-md hover:bg-orange-600 transition">About Me</button>
 
-        <div class="image-section">
-            <img src="images/your-photo.jpg" alt="Your Photo">
+        <div class="mt-6">
+            <img src="images/your-photo.jpg" alt="Your Photo" class="w-32 h-32 rounded-full mx-auto border-4 border-gray-300">
         </div>
     </div>
 
     <script src="script.js"></script>
 </body>
-
 </html>
